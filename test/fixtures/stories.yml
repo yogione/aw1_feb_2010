@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  plant_or_division: MyString
+  howmany_years: 1
+  pet_story: MyText
+  message_to_company: MyText
+
+two:
+  plant_or_division: MyString
+  howmany_years: 1
+  pet_story: MyText
+  message_to_company: MyText

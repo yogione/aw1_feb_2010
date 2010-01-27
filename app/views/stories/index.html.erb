@@ -1,0 +1,26 @@
+<h1>Listing stories</h1>
+
+<table>
+  <tr>
+    <th>Plant or division</th>
+    <th>Howmany years</th>
+    <th>Pet story</th>
+    <th>Message to company</th>
+  </tr>
+
+<% @stories.each do |story| %>
+  <tr>
+    <td><%=h story.plant_or_division %></td>
+    <td><%=h story.howmany_years %></td>
+    <td><%=h story.pet_story %></td>
+    <td><%=h story.message_to_company %></td>
+    <td><%= link_to 'Show', story %></td>
+    <td><%= link_to 'Edit', edit_story_path(story) %></td>
+    <td><%= link_to 'Destroy', story, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New story', new_story_path %>

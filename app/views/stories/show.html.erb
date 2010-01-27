@@ -1,0 +1,23 @@
+<p>
+  <b>Plant or division:</b>
+  <%=h @story.plant_or_division %>
+</p>
+
+<p>
+  <b>Howmany years:</b>
+  <%=h @story.howmany_years %>
+</p>
+
+<p>
+  <b>Pet story:</b>
+  <%=h @story.pet_story %>
+</p>
+
+<p>
+  <b>Message to company:</b>
+  <%=h @story.message_to_company %>
+</p>
+
+
+<%= link_to 'Edit', edit_story_path(@story) %> |
+<%= link_to 'Back', stories_path %>
