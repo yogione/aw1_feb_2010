@@ -13,6 +13,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :home
   map.signup '/home', :controller => 'home', :action => 'index'
    map.root  :controller => 'home', :action => 'index'
+   map.root :controller => 'pages', :action => 'home'
 
 
   map.resource :session

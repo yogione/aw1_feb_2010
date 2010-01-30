@@ -7,7 +7,7 @@
     <%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
     <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
-  </head>
+    </head>
   <body>
     <div class="container">
       <div id="header">
@@ -17,7 +17,8 @@
           <li><%= link_to "Help", '#' %>
           <li><%= link_to "Sign in", '#' %>
         </ul>
-    <div id="content">
+        </div>
+    <div id="content" class="round">
       <%= yield %>
     </div>
   </div>
