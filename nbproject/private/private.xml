@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/README</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/app/helpers/photos_helper.rb</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/app/helpers/users_helper.rb</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/app/models/photo.rb</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/app/models/user.rb</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/db/migrate/20100124121309_create_users.rb</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/db/migrate/20100124223318_create_photos.rb</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/db/seeds.rb</file>
-        <file>file:/home/srini/code/ruby/src/autoworker/aw1/test/fixtures/photos.yml</file>
-    </open-files>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
 </project-private>

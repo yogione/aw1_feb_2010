@@ -5,3 +5,8 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+users = User.create([{:login => 'egismo'},{:email => 'egis@egis.com'},{ :firstname => 'Lisa' }, { :lastname => 'Gis' }])
+users = User.create([{:login => 'gary'},{:email => 'gary@gary.com'},{ :firstname => 'Gary' }, { :lastname => 'Alex' }])
+users = User.create([{:login => 'Irwin'},{:email => 'Irwin@irwin.com'},{ :firstname => 'Irwin' }, { :lastname => 'Jop' }])
+
+ 

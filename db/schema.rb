@@ -9,13 +9,30 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100124223318) do
+ActiveRecord::Schema.define(:version => 20100127013914) do
+
+  create_table "comments", :force => true do |t|
+    t.string   "commenter_name"
+    t.string   "commenter_email"
+    t.text     "comment_text"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "photos", :force => true do |t|
     t.string   "filename"
     t.integer  "size"
     t.integer  "width"
     t.integer  "height"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "stories", :force => true do |t|
+    t.string   "plant_or_division"
+    t.integer  "howmany_years"
+    t.text     "pet_story"
+    t.text     "message_to_company"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
