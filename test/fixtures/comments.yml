@@ -1,11 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  commenter_name: MyString
-  commenter_email: MyString
-  comment_text: MyText
+  commenter_name: lisa
+  commenter_email: l@l.com
+  comment_text: looking good there lisa
 
 two:
-  commenter_name: MyString
-  commenter_email: MyString
-  comment_text: MyText
+  commenter_name: gary
+  commenter_email: g@g.com
+  comment_text: thanks gary

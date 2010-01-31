@@ -1,13 +1,13 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  plant_or_division: MyString
-  howmany_years: 1
-  pet_story: MyText
-  message_to_company: MyText
+  plant_or_division: Dearborn Engine
+  howmany_years: 30
+  pet_story: Ran over some one's toes with hi-lo
+  message_to_company: keep up the good work
 
 two:
-  plant_or_division: MyString
-  howmany_years: 1
-  pet_story: MyText
-  message_to_company: MyText
+  plant_or_division: Wayne Assembly
+  howmany_years: 31
+  pet_story: Ran over some one's toes with hi-lo
+  message_to_company: keep up the good work
