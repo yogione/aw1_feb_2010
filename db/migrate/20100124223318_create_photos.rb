@@ -5,6 +5,7 @@ class CreatePhotos < ActiveRecord::Migration
       t.integer :size
       t.integer :width
       t.integer :height
+      t.integer :user_id
 
       t.timestamps
     end

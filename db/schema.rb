@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20100127013914) do
     t.string   "commenter_name"
     t.string   "commenter_email"
     t.text     "comment_text"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20100127013914) do
     t.integer  "size"
     t.integer  "width"
     t.integer  "height"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -33,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20100127013914) do
     t.integer  "howmany_years"
     t.text     "pet_story"
     t.text     "message_to_company"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

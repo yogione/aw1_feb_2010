@@ -5,9 +5,11 @@ one:
   size: 100
   width: 100
   height: 100
+  user_id: 298486374
 
 two:
   filename: /tmp/images/gary.png
   size: 100
   width: 100
   height: 100
+  user_id: 298486374

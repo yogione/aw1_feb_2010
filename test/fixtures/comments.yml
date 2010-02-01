@@ -4,8 +4,10 @@ one:
   commenter_name: lisa
   commenter_email: l@l.com
   comment_text: looking good there lisa
+  user_id: 298486374
 
 two:
   commenter_name: gary
   commenter_email: g@g.com
   comment_text: thanks gary
+  user_id: 298486374

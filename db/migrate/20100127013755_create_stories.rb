@@ -5,6 +5,7 @@ class CreateStories < ActiveRecord::Migration
       t.integer :howmany_years
       t.text :pet_story
       t.text :message_to_company
+      t.integer :user_id
 
       t.timestamps
     end
