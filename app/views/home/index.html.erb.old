@@ -1,0 +1,9 @@
+<h1>Home#index</h1>
+<ul>
+   <% for worker in @workers  %>
+    <li>
+     First Name:  <%= worker.name %> <br> Last Name: <%=worker.email%>
+  
+    </li>
+ <%  end %>
+</ul>
