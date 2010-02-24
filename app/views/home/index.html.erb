@@ -1,12 +1,12 @@
 <h1>Home#index</h1>
 <ul>
-   <% for worker in @homeview  %>
+  <% for user in @users %>
     <li>
-        Name:  <%= worker.name %> <br> Last Name: <%=worker.firstname%>
-         Photo file name:  <%= worker.filename %> <br> Photo Size: <%=worker.size%>
-         Pet Story:  <%= worker.pet_story %> <br> Comment Text: <%=worker.comment_text%> <b>
-         Number of Years:  <%= worker.howmany_years %> <br> Commenter Name: <%=worker.commenter_name%>
-  
-    </li>
- <%  end %>
+        Name: <%= user.name %> <br>
+        Last Name: <%= user.lastname%><br>
+        File: <%= user.photo.try(:filename) %> <br>
+        Story: <%=user.story.try(:pet_story)%> <br>
+         Comment: <%=user.comment.try(:comment_text) %>
+      </li>
+ <% end %>
 </ul>                             
